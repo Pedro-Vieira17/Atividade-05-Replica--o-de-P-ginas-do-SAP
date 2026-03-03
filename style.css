@@ -1,12 +1,95 @@
-.robo{
+#parte_robo {
+    background-color: aqua;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 18px;
+    width: fit-content;
+    font-size: large;
+}
+
+#pedidos_recentes {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 18px;
+    width: 450px;
+    font-size: large;
+}
+
+.topo-pedidos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.lista-pedidos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cabecalho-lista, .linha-pedido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 13px;
+    text-align: center;
+}
+
+.cabecalho-lista {
+    font-weight: bold;
+    color: #0046b8;
+}
+
+.status-verde {
+    background-color: #4cd137;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.status-vermelho {
+    background-color: #ee1515;
+    color: white;
+    border-radius: 5px;
+}
+.status-amarelo {
+    background-color: #e7e417;
+    color: white;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    gap: 50px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: rgb(117, 93, 93);
+}
+
+.robo {
     width: 200px;
     left: 30px;
 }
 
-.cabeçalho{
+#robozao {
     display: flex;
-    justify-content: center;
-    
+}
+
+#informações_azul {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    align-items: flex-start;
+    gap: 12px;
+
 }
 
 button {

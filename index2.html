@@ -10,28 +10,79 @@
 <body>
 
     <header>
-        <nav>
-            <div class="cabeçalho">
-                <img class="robo" src="assets/robo.png" alt="">
-                <h1>Olá, tudo bem?</h1>
-                <h1>Como posso ajudar hoje?</h1>
-                <h3>Fale comigo!</h3>
+        <nav id="parte_robo">
 
-            </div>
-            <div>
-                <h2>QUERO COMPRAR</h2>
-                <h2>QUERO COMPRAR SERVIÇO</h2>
-                <H2>CONSULTAR FLUXO DE PROCESSOS</H2>
-                <h2>STATUS DAS MINHAS REQUISIÇÕES</h2>
-                <h2>NÃO SEI AO CERTP, ME AJUDE</h2>
+            <div id="robozao">
+                <img class="robo" src="assets/robo-removebg-preview.png" alt="">
+                <div class="cabeçalho">
+                    <h1>Olá, tudo bem?</h1>
+                    <h1>Como posso ajudar hoje?</h1>
+                    <button>Fale comigo!</button>
+                </div>
             </div>
 
+            <div id="informações_azul">
+                <button>QUERO COMPRAR MATERIAL</button>
+                <button>QUERO COMPRAR SERVIÇO</button>
+                <BUtton>CONSULTAR FLUXO DE PROCESSOS</BUtton>
+                <BUtton>STATUS DAS MINHAS REQUISIÇÕES</BUtton>
+                <BUtton>NÃO SEI AO CERTO, ME AJUDE</BUtton>
+            </div>
         </nav>
 
+        <nav id="pedidos_recentes">
+            <div class="topo-pedidos">
+                <h2>Status de pedidos recentes</h2>
+                <p>Ver todos pedidos</p>
+            </div>
+
+            <div class="lista-pedidos">
+                <div class="cabecalho-lista">
+                    <span>Nº Req.</span>
+                    <span>Data</span>
+                    <span>Valor</span>
+                    <span>Status</span>
+                </div>
+                <div class="linha-pedido">
+                    <span>#125</span>
+                    <span>20/04/2026</span>
+                    <span>R$ 1.250,50</span>
+                    <span class="status-verde">Processado</span>
+                </div>
+                <div class="linha-pedido">
+                    <span>#125</span>
+                    <span>20/04/2026</span>
+                    <span>R$ 1.250,50</span>
+                    <span class="status-amarelo">Análise</span>
+                </div>
+                <div class="linha-pedido">
+                    <span>#125</span>
+                    <span>20/04/2026</span>
+                    <span>R$ 1.250,50</span>
+                    <span class="status-vermelho">Erro</span>
+                </div>
+                <div class="linha-pedido">
+                    <span>#125</span>
+                    <span>20/04/2026</span>
+                    <span>R$ 1.250,50</span>
+                    <span class="status-verde">Processado</span>
+                </div>
+            </div>
+        </nav>
+
+        <nav>
+            <div>
+                <h2>Baseado em suas últimas compras</h2>
+                <p>Ver todas as recomendações</p>
+            </div>
 
 
 
+        </nav>
     </header>
+
+
+
 
     <main>
 
