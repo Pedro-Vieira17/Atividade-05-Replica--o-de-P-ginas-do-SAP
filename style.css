@@ -1,0 +1,10 @@
+.robo{
+    width: 200px;
+    left: 30px;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    
+}
