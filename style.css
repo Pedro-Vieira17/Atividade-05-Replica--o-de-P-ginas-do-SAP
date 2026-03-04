@@ -20,6 +20,57 @@
     font-size: large;
 }
 
+#ultimas_compras {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aqua;
+    width: fit-content;
+    border-radius: 18px;
+    padding: 20px;
+
+}
+
+
+
+.ultimas_compras_img {
+    width: 125px;
+}
+
+.imagem_compra{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagens_compras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    margin-top: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .topo-pedidos {
     display: flex;
     justify-content: space-between;
@@ -34,15 +85,14 @@
     gap: 15px;
 }
 
-.cabecalho-lista, .linha-pedido {
+.cabecalho-lista,.linha-pedido {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 13px;
     text-align: center;
 }
 
-.cabecalho-lista {
-    font-weight: bold;
+.cabecalho-lista { 
     color: #0046b8;
 }
 
@@ -50,7 +100,7 @@
     background-color: #4cd137;
     color: white;
     border-radius: 5px;
-    
+
 }
 
 .status-vermelho {
@@ -58,11 +108,13 @@
     color: white;
     border-radius: 5px;
 }
+
 .status-amarelo {
     background-color: #e7e417;
     color: white;
     border-radius: 5px;
 }
+
 
 header {
     display: flex;
