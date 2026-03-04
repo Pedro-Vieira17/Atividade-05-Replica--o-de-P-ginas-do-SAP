@@ -31,25 +31,71 @@
 
 }
 
+#mensagens {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aqua;
+    width: fit-content;
+    border-radius: 18px;
+    padding: 20px;
+}
 
+#imagens_usuarios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto_usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario img {
+    width: 40px;
+    height: 40px;
+}
+
+.usuario h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.usuario p {
+    margin: 0;
+    font-size: 13px;
+  
+}
+
+.linha-secoes {
+    display: flex;
+    gap: 40px;
+    
+}
 
 .ultimas_compras_img {
     width: 125px;
 }
 
-.imagem_compra{
+.imagem_compra {
     background-color: white;
     padding: 15px;
     border-radius: 10px;
     width: 100px;
     height: 100px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#imagens_compras{
+#imagens_compras {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -61,11 +107,11 @@
     align-items: center;
 }
 
-main{
+main {
     margin-top: 30px;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -85,14 +131,15 @@ body{
     gap: 15px;
 }
 
-.cabecalho-lista,.linha-pedido {
+.cabecalho-lista,
+.linha-pedido {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 13px;
     text-align: center;
 }
 
-.cabecalho-lista { 
+.cabecalho-lista {
     color: #0046b8;
 }
 
