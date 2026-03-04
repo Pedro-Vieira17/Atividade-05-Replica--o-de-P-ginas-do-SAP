@@ -203,3 +203,48 @@ button {
     margin: 2px 1px;
     cursor: pointer;
 }
+.tabela {
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    
+
+
+}
+
+.linha {
+    display: flex;
+}
+
+.celula {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    width: 105px;
+    text-align: left;
+}
+
+.cabecalho {
+    background-color: #d9d9d9;
+    font-weight: bold;
+}
+
+
+.tabela_2 {
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #999;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+justify-content: flex-end;
+     
+    
+}
+
+.celula_2 {
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    width: 200px;
+    text-align: left;
+}
