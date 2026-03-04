@@ -1,18 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SAP Layout</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header >
-<h1> Component Customizing / SCMTMS/WDCC_FWD_ORDER,Main Page "$OTR:/UI_CMN/FORWARDING_ORDER"</h1>
+    <header>
+
     </header>
     <main>
-    <div  style="display: flex; background-color: rgb(226, 226, 226);">
+   <h1 style="display: flex; background-color: #9c9c9c;"> Component Customizing / SCMTMS/WDCC_FWD_ORDER,Main Page "$OTR:/UI_CMN/FORWARDING_ORDER" </h1>
+    <div style="display: flex; background-color: #9c9c9c"> 
         <button>💾Save</button> 
         <button>❌Cancel</button>
         <button>✏️Edit</button>
@@ -29,10 +29,10 @@
         
     </div>
 
-    <div  style="display: flex; background-color: rgb(216, 216, 218);">
+    <div style="display: flex;">
         <h2> Navigation Repositories 📁 </h2>
     </div>
-    <div  style="display: flex; background-color: rgb(222, 223, 224);">
+    <div style="display: flex;">
       <button>📄 New</button>
       <button> 🗑️</button>
       <button> 📑</button>
@@ -40,15 +40,129 @@
       <button> down </button>
       <button> 🧑‍🏭 </button>
     </div>
+<div class="tabela">
 
-    
+    <div class="linha cabecalho">
+        <div class="celula">Page Type</div>
+        <div class="celula">Page Id</div>
+        <div class="celula">Title</div>
+    </div>
 
+    <div class="linha">
+        <div class="celula">Initial Page</div>
+        <div class="celula">INIT</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha selecionado">
+        <div class="celula">Main Page</div>
+        <div class="celula">MAIN</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Main Page</div>
+        <div class="celula">MAIN_FAST_EI</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Main Page</div>
+        <div class="celula">MAIN_FAST_EL</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">ADDRESS_DE</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">ACT_LIST</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">NOTE_HLP</div>
+        <div class="celula">$OTR:/BOFU/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">SEC_FILING_R</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">SEC_FILING_C</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">REPACT_NOT</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula">Dialog Box</div>
+        <div class="celula">REPACT_ATF</div>
+        <div class="celula">$OTR:/SCMTMS/...</div>
+    </div>
+
+</div>
+
+<div class="tabela_2">
+
+    <div class="linha cabecalho">
+        <div class="celula_2">Element</div>
+        <div class="celula_2">Component</div>
+        <div class="celula_2">Config ID</div>
+        <div class="celula_2">Window Name</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula_2">Section: SECTION_1</div>
+        <div class="celula_2">FPM_FORM_UIBB_GL2</div>
+        <div class="celula_2">/SCMTMS/WDCC_FWO_GEN</div>
+        <div class="celula_2">FORM_WINDOW</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula_2">UIBB: $OTR:/SCMTMS/UII...</div>
+        <div class="celula_2">FPM_FORM_UIBB_GL2</div>
+        <div class="celula_2">/SCMTMS/WDCC_CMN_ADM...</div>
+        <div class="celula_2">FORM_WINDOW</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula_2">UIBB: $OTR:/SCMTMS/UII...</div>
+        <div class="celula_2">FPM_TABBED_UIBB</div>
+        <div class="celula_2">/SCMTMS/WDCC_TRQ_BUPA</div>
+        <div class="celula_2">TABBED_WINDOW</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula_2">UIBB: $OTR:/SCMTMS/UII...</div>
+        <div class="celula_2">FPM_TREE_UIBB</div>
+        <div class="celula_2">/SCMTMS/WDCC_DOC_FLOW</div>
+        <div class="celula_2">TREE_WINDOW</div>
+    </div>
+
+    <div class="linha">
+        <div class="celula_2">UIBB: $OTR:/SCMTMS/UII...</div>
+        <div class="celula_2">FPM_TABBED_UIBB</div>
+        <div class="celula_2">/SCMTMS/WDCC_TCM_CHAR...</div>
+        <div class="celula_2">TABBED_WINDOW</div>
+    </div>
+
+</div>
     </main>
 
-    <footer>
-
-    </footer>
 
 </body>
-
 </html>
